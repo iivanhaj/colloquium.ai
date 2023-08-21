@@ -1,13 +1,6 @@
 import React, {useEffect} from 'react'
 import './home.css'
 import homeImg from '../../Assets/homeImg.png'
-import {IoLocationSharp} from 'react-icons/io5'
-import {AiOutlineSearch} from 'react-icons/ai'
-import {FiFacebook} from 'react-icons/fi'
-import {AiOutlineInstagram} from 'react-icons/ai'
-import {FiTwitter} from 'react-icons/fi'
-import {BsListTask} from 'react-icons/bs'
-import {TbApps} from 'react-icons/tb'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'

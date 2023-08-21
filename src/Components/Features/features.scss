@@ -1,0 +1,71 @@
+@import 'aos/dist/aos.css'; // Import AOS CSS
+
+.features {
+  // Styling for the whole section
+  padding: 40px;
+
+  .secTitle {
+    // Styling for the title section
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .secContent {
+    // Styling for the content section
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; // Enable horizontal scrolling for small screens
+
+    .singleDestination {
+      // Styling for each feature item
+      width: 300px; // Fixed width for each item
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+
+      .imageDiv {
+        // Styling for the image
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+
+      .cardInfo {
+        // Styling for the card info
+        padding-top: 20px;
+
+        .destTitle {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        .desc {
+          font-size: 14px;
+          color: #666;
+          margin-bottom: 15px;
+        }
+
+        .btn {
+          background-color: #007bff;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+          padding: 10px 20px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+}
