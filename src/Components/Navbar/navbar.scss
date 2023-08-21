@@ -125,7 +125,6 @@
 
                 .navItem{
                     .navLink{
-                        && {
                         color: var(--white);
                         padding: 1rem;
                         font-size: 0.9rem;
@@ -134,7 +133,6 @@
                         &:hover{
                             color: var(--button);
                         }
-                    }
                     }
 
                 }
