@@ -1,12 +1,12 @@
 /* Colours and styling */
 :root {
-  --white: "#fff";
-  --bg1: "#2F2F2F";
-  --bg2: "#202020";
-  --button: "#FF8838";
-  --hover: "#FF7B23";
-  --black: "#000";
-  --gradientColour: linear-gradient(to right, hsl(187,85%, 43%), hsl(199, 100%, 33%));
+  --white: #fff;
+  --bg1: #2F2F2F;
+  --bg2: #202020;
+  --button: #FF8838;
+  --hover: #FF7B23;
+  --black: #000;
+  --gradientColour: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
 }
 
 .header {
